@@ -444,7 +444,7 @@ header > :nth-child(3) a:hover {
 
 .servieces-section {
   width: 100%;
-  height: 40vh;
+  height: 33vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -493,12 +493,12 @@ header > :nth-child(3) a:hover {
 }
 
 .card-item {
-  width: 350px;
+  width: 370px;
   height: 250px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 40px 20px;
+  padding: 33px 20px;
   font-family: "Saira", sans-serif;
   border-radius: 5px;
   box-shadow: 1px 1px 10px rgba(103, 102, 102, 0.055),
@@ -507,6 +507,8 @@ header > :nth-child(3) a:hover {
     /* Top-right shadow */ -1px -1px 10px rgba(103, 102, 102, 0.055);
   /* Top-left shadow */
   overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .card-item img {
@@ -521,6 +523,11 @@ header > :nth-child(3) a:hover {
 
 .container{
   height: 404px;
+}
+
+.card-item:hover{
+  background-color: black;
+  color: white;
 }
 
 @media screen and (max-width: 1189px) {
