@@ -521,7 +521,6 @@ header > :nth-child(3) a:hover {
 
 .container{
   height: 404px;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1189px) {
@@ -785,7 +784,7 @@ header > :nth-child(3) a:hover {
 
   .container{
     height: 551px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 
@@ -930,7 +929,7 @@ header > :nth-child(3) a:hover {
 
   .container{
     height: 800px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 
@@ -951,6 +950,6 @@ header > :nth-child(3) a:hover {
 
   .container{
     height: 800px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
