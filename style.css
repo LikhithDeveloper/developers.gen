@@ -479,7 +479,7 @@ header > :nth-child(3) a:hover {
 }
 
 .slider-wrapper {
-  height: 300px;
+  height: 350px;
 }
 
 .card-list {
@@ -520,6 +520,7 @@ header > :nth-child(3) a:hover {
 }
 
 .container{
+  height: 404px;
   overflow: hidden;
 }
 
@@ -923,6 +924,27 @@ header > :nth-child(3) a:hover {
     overflow: hidden;
   }
 
+  .slider-wrapper {
+    height: 800px;
+  }
+
+  .container{
+    height: 800px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 999px){
+  .card-list {
+    width: 100%;
+    background-color: transparent;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
   .slider-wrapper {
     height: 800px;
   }
