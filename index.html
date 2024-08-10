@@ -1,75 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <header>
-        <!-- <div>DEVELOPERS<span style="color: #426A68;">.GEN</span></div> -->
-        <div><img src="assets/images/logo.png" style="width: 100%;"></div>
-        <div>
-            <nav>
-                <div>
-                    <ul>
-                        <li><a href="#home" class="nav-ele">Home</a></li>
-                        <li><a href="#about" class="nav-ele">About</a></li>
-                        <li><a href="#services" class="nav-ele">Services</a></li>
-                        <li><a href="#project" class="nav-ele">Project</a></li>
-                        <li><a href="#contact" class="nav-ele">Our Team</a></li>
-                      </ul>
-                </div>
-            </nav>
-        </div>
-        <div><a href="#" class="menu-bar">Menu</a></div>
-        <div class="menu2"><a href="#" class="menu-bar2">Contact Us</a></div>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linking swiper -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Lines animation-->
+    <div
+      class="after-hero"
+      style="width: 100%; display: flex; justify-content: center"
+    >
+      <div class="services">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+      </div>
+    </div>
 
+    <!--Nav Bar-->
+    <header>
+      <!-- <div>DEVELOPERS<span style="color: #426A68;">.GEN</span></div> -->
+      <div><img src="assets/images/logo.png" style="width: 100%" /></div>
+      <div>
+        <nav>
+          <div>
+            <ul>
+              <li><a href="#home" class="nav-ele">Home</a></li>
+              <li><a href="#about" class="nav-ele">About</a></li>
+              <li><a href="#service" class="nav-ele">Services</a></li>
+              <li><a href="#project" class="nav-ele">Project</a></li>
+              <li><a href="#contact" class="nav-ele">Our Team</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div><a href="#" class="menu-bar">Menu</a></div>
+      <div class="menu2"><a href="#" class="menu-bar2">Contact Us</a></div>
     </header>
     <div class="responsive-navbar">
-        <nav>
-            <div>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                  </ul>
-            </div>
-        </nav>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <!--Hero section-->
 
     <section class="hero">
-        <div class="hero-1">
-            <div class="hero-1-1">
-                <a href="" class="social">LinkedIn</a>
-                <a href="" class="social">Instagram</a>
-                <a href="" class="social">Facebook</a>
-            </div>
-            <div class="hero-1-2">
-                <h1>
-                <h1 class="hero-head1">Creative & Minimal</h1>
-                <h2 class="hero-head2">IT AGENCY.<span class="it"></span></h2>
-                <p class="hero-para">Curabiter sed facilisis erat. Vestibulum pharetra eros eget fringilla<br> porttitor. ol Duis a orci nunc. Suspendisse ac convallis sapien, quis<br> commodo libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.</p>
-                </h1>
-                <br>
-                <button class="contact"><span></span>Contact us</button>
-            </div>
+      <div class="hero-1">
+        <div class="hero-1-1">
+          <a href="" class="social">LinkedIn</a>
+          <a href="" class="social">Instagram</a>
+          <a href="" class="social">Facebook</a>
         </div>
-        <div class="hero2">
-            <div class="hero2-1">
-                <img src="assets/images/1.webp">
-            </div>
+        <div class="hero-1-2">
+          <h1>
+            <h1 class="hero-head1">Creative & Minimal</h1>
+            <h2 class="hero-head2">IT AGENCY.<span class="it"></span></h2>
+            <p class="hero-para">
+              Curabiter sed facilisis erat. Vestibulum pharetra eros eget
+              fringilla<br />
+              porttitor. ol Duis a orci nunc. Suspendisse ac convallis sapien,
+              quis<br />
+              commodo libero. Donec nec dui luctus, pellentesque lacus sed,
+              mollis leo.
+            </p>
+          </h1>
+          <br />
+          <button class="contact"><span></span>Contact us</button>
         </div>
+      </div>
+      <div class="hero2">
+        <div class="hero2-1">
+          <img src="assets/images/1.webp" />
+        </div>
+      </div>
     </section>
     <div class="separate"></div>
 
+    <!-- Services section -->
+    <div class="servieces-section" id="service">
+      <div class="servieces-section-inner">
+        <h4>Our Solutions</h4>
+        <h1>Services</h1>
+        <p>
+          Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla
+          porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis
+          commodo libero.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="slider-wrapper">
+        <div class="card-list">
+          <div class="card-item">
+            <img src="assets/images/service-icon-1.png" />
+            <h2>WEB DESIGN</h2>
+            <p>
+              Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/images/service-icon-2.png" />
+            <h2>UI/UX DESIGN</h2>
+            <p>
+              Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/images/service-icon-3.png" />
+            <h2>APP DESIGN</h2>
+            <p>
+              Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
 
     <script src="index.js"></script>
-</body>
+    <!--Linking swiperJS script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
