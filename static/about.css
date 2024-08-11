@@ -151,6 +151,7 @@
     font-weight: 600;
     position: relative;
     color: #75dab4;
+    top: 20px;
 }
 
 .about2-inner1 h6::before{
