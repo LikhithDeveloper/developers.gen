@@ -205,6 +205,9 @@
     top: 100%;
 }
 
+.about-content2>:nth-child(1) img{
+    width: 50%;
+}
 
 /* responsiveness od about */
 
@@ -217,5 +220,21 @@
     }
     .we-use-inner{
         display: flex;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:350px) {
+    .about{
+        height: 100vh;
+    }
+    .servieces-section{
+        height: 36vh;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .about-content2>:nth-child(1) img{
+        width: 80%;
     }
 }
