@@ -1,0 +1,114 @@
+.portfolio{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-inner1{
+    width: 90%;
+    /* height: 90%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: red;
+}
+
+.heading{
+    width: 100%;
+    height: 10%;
+    font-family: "Saira", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    font-weight: 700;
+}
+
+
+.buttons{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(33, 33, 167); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttons-inner{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: blue; */
+    padding : 15px 150px;
+    flex-wrap: wrap;
+}
+
+.buttons-inner button{
+    background-color: transparent;
+    padding: 2px 17px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Saira", sans-serif;
+    transition: 0.2s ease;
+}
+
+.buttons-inner button:hover{
+    background-color: rgb(25, 26, 28);
+    color: white;
+}
+
+.works{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-inner1{
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: yellow;
+}
+.work-inner2{
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: yellow;
+}
+.work-inner3{
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.project-details{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Saira", sans-serif;
+}
