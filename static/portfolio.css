@@ -15,7 +15,8 @@
     align-items: center;
     flex-direction: column;
     padding-top: 50px;
-    background-color: red;
+    padding-bottom: 50px;
+    /* background-color: red; */
 }
 
 .heading{
@@ -60,6 +61,7 @@
     border: none;
     font-family: "Saira", sans-serif;
     transition: 0.2s ease;
+    margin: 0px 10px;
 }
 
 .buttons-inner button:hover{
@@ -76,39 +78,54 @@
 }
 
 .work-inner1{
-    width: 90%;
+    width: 80%;
     height: 220px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: yellow;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+
 }
 .work-inner2{
-    width: 90%;
+    width: 80%;
     height: 220px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: yellow;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+
 }
 .work-inner3{
-    width: 90%;
+    width: 80%;
     height: 220px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: yellow;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+    
 }
 
 .project-details{
-    width: 200px;
+    width: 260px;
     height: 200px;
     background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-family: "Saira", sans-serif;
+    border-radius: 4px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 10px rgba(103, 102, 102, 0.055),
+    /* Bottom-right shadow */ -1px 1px 10px rgba(103, 102, 102, 0.055),
+    /* Bottom-left shadow */ 1px -1px 10px rgba(103, 102, 102, 0.055),
+    /* Top-right shadow */ -1px -1px 10px rgba(103, 102, 102, 0.055);
+  /* Top-left shadow */
+  /* position: relative; */
+  font-size: 12px;
 }
