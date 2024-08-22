@@ -383,8 +383,8 @@ header > :nth-child(3) a:hover {
 .services {
   background-color: white;
   width: 85%;
-  height: 100%;
-  position: absolute;
+  /* height: 100%; */
+  position: relative;
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -665,6 +665,10 @@ header > :nth-child(3) a:hover {
     /* background-color: aqua; */
   }
 
+  .hero-para{
+    text-align: center;
+  }
+
   .hero-1-1 {
     display: none;
     justify-content: space-around;
@@ -922,7 +926,7 @@ header > :nth-child(3) a:hover {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 29px 20px;
     font-family: "Saira", sans-serif;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(103, 102, 102, 0.055),

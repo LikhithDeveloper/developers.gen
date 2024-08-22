@@ -3,7 +3,7 @@
     text-align: center;
     padding: 50px 0px 20px 0px;
     font-family: "Martel Sans", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 1000;
     align-items: center;
 }
@@ -15,11 +15,12 @@
     justify-content: space-between;
     /* max-width: 73vw; */
     margin: auto;
-    padding: 20px;
+    padding: 5px 10px;
     /* margin-bottom: 10px; */
-    font-size: 19px;
+    font-size: 14px;
     cursor: pointer;
     width: 60%;
+    align-items: center;
 }
 /* .aftersection div:hover{
     background-color: rgb(65, 61, 61);
@@ -71,4 +72,8 @@
 
 .svg1{
     rotate: 45deg;
+}
+
+.faqs svg{
+    padding: 6px 3px;
 }
