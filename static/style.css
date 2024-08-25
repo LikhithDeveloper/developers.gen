@@ -986,6 +986,6 @@ header > :nth-child(3) a:hover {
   .after-hero {
     position: absolute;
     z-index: -4;
-    height: 900vh;
+    height: 805vh;
 }
 }
