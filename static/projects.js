@@ -2,17 +2,19 @@ addEventListener("DOMContentLoaded", () => {
   let data = [
     {
       id: "uiux",
-      name: "Project1",
-      category: "Category",
+      name: "Rent instant",
+      category: "UIUX",
       description:
         "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+      link:"https://www.rentinstant.ca/"
     },
     {
       id: "uiux",
-      name: "Project2",
-      category: "Category",
+      name: "Way to startup",
+      category: "UIUX",
       description:
         "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+      link:"https://www.instagram.com/way2startup.in?igsh=eHRhbWJvdWliamo1"
     },
     {
       id: "uiux",
@@ -44,10 +46,11 @@ addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "web",
-      name: "Project7",
-      category: "Category",
+      name: "TDR Coaching center",
+      category: "WEB",
       description:
         "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+        link:"#"
     },
     {
       id: "web",
@@ -70,7 +73,7 @@ addEventListener("DOMContentLoaded", () => {
             <h5>${data1.name}</h5>
             <p>${data1.category}</p>
             <p>${data1.description}</p>
-            <a href="https://chatgpt.com/">Go here</a>
+            <a href="${data1.link}">Go here</a>
         </div>
         `;
     });
