@@ -70,15 +70,15 @@
 }
 
 .works{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(303px, 1fr));
+    gap: 19px;
+    width: 95%;
+    transition: 0.3s ease;
 }
 
 .work-inner1{
-    width: 80%;
+    width: 100%;
     height: 220px;
     display: flex;
     justify-content: space-around;
@@ -128,4 +128,10 @@
   /* Top-left shadow */
   /* position: relative; */
   font-size: 12px;
+}
+
+@media screen and (max-width:400px) {
+    .works{
+        width: 91%;
+    }
 }
