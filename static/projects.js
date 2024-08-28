@@ -77,7 +77,7 @@ addEventListener("DOMContentLoaded", () => {
             <h5>${data1.name}</h5>
             <p>${data1.category}</p>
             <p>${data1.description}</p>
-            <a href="${data1.link}">Go here</a>
+            <a href="${data1.link}" target="_blank">Go here</a>
         </div>
         `;
     });
