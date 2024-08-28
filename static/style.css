@@ -390,13 +390,13 @@ header > :nth-child(3) a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.103);
+  border-right: 1px solid rgba(0, 0, 0, 0.050);
 }
 .services .lines {
   display: flex;
   width: 20%;
   height: 100%;
-  border-left: 1px solid rgba(0, 0, 0, 0.103);
+  border-left: 1px solid rgba(0, 0, 0, 0.050);
 }
 /* .services::after{
     content: "";
