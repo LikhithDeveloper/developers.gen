@@ -128,5 +128,8 @@
         box-shadow: none;
         height: 50%;
     }
+    .mail{
+        font-size: 18px;
+    }
 
 }
