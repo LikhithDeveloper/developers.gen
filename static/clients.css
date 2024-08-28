@@ -121,7 +121,7 @@
 @media screen and (max-width:411px) {
     .clients{
         flex-direction: column;
-        height: 300px;
+        height: 353px;
     }
     .clients-inner1{
         width: 100%;
