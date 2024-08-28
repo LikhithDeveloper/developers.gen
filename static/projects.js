@@ -16,48 +16,52 @@ addEventListener("DOMContentLoaded", () => {
         "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
       link:"https://www.instagram.com/way2startup.in?igsh=eHRhbWJvdWliamo1"
     },
+    // {
+    //   id: "uiux",
+    //   name: "Project3",
+    //   category: "Category",
+    //   description:
+    //     "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+    // },
     {
-      id: "uiux",
-      name: "Project3",
-      category: "Category",
+      id: "app",
+      name: "Prompt GPT",
+      category: "APP",
       description:
-        "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+        "Prompt GPT:A 3-tier app for enhancing Al prompts,from beginner to expert levels.",
+        link:"https://play.google.com/store/apps/details?id=com.vinaylakkoju.flutter_gemini"
     },
     {
       id: "app",
-      name: "Project4",
-      category: "Category",
+      name: "Check My Resume",
+      category: "APP",
       description:
-        "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+        "Boost your resume with Check My Resume Analyze & improve your Resume now.",
+        link:"https://play.google.com/store/apps/details?id=com.vinaylakkoju.resume_analyzer"
     },
     {
       id: "app",
-      name: "Project5",
-      category: "Category",
+      name: "Reaidy.io",
+      category: "APP",
       description:
-        "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
-    },
-    {
-      id: "app",
-      name: "Project6",
-      category: "Category",
-      description:
-        "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+        "The future of interviews is here!",
+        link:"https://play.google.com/store/apps/details?id=com.spotmies.reaidy"
     },
     {
       id: "web",
       name: "TDR Coaching center",
       category: "WEB",
       description:
-        "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
-        link:"#"
+        "A coaching center website used for maintain the data of students",
+        link:"h#"
     },
     {
       id: "web",
-      name: "Project8",
-      category: "Category",
+      name: "Developers.Gen",
+      category: "WEB",
       description:
         "Description dfudns dndskjnvd sklnc dsknvdsklnvkaslnv adsjk ewfewfewfw",
+        link:"#"
     },
   ];
 

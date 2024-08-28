@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 60px;
+    padding: 20px 10px;
     /* margin-bottom: 40px; */
     
 }
@@ -81,14 +81,14 @@
 }
 .clients-scroll{
     white-space: nowrap;
-    animation: 2s scroll infinite linear;
+    animation: 5s scroll infinite linear;
     display: inline-block;
     justify-content: space-between;
-    width: 756px
+    width: 1300px
 }
 .clients-img{
     /* white-space: nowrap; */
-    width: 115px;
+    width: 180px;
     margin-right: 35px;
 }
 
@@ -110,6 +110,11 @@
     }
     .clients-inner1::after{
         display: none;
+    }
+    .clients-img{
+        /* white-space: nowrap; */
+        width: 114px;
+        margin-right: 35px;
     }
 }
 
