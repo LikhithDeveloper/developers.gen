@@ -159,13 +159,13 @@ header > :nth-child(3) a:hover {
 }
 
 .responsive-navbar {
-  background-color: red;
+  /* background-color: red; */
   display: none;
 }
 .responsive-navbar ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  /* display: flex;
+  justify-content: start;
+  flex-direction: column; */
   height: 350px;
   width: 100px;
 }
@@ -390,13 +390,13 @@ header > :nth-child(3) a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.050);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 .services .lines {
   display: flex;
   width: 20%;
   height: 100%;
-  border-left: 1px solid rgba(0, 0, 0, 0.050);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
 }
 /* .services::after{
     content: "";
@@ -525,11 +525,11 @@ header > :nth-child(3) a:hover {
   padding-top: 30px;
 }
 
-.container{
+.container {
   height: 404px;
 }
 
-.card-item:hover{
+.card-item:hover {
   background-color: black;
   color: white;
 }
@@ -585,17 +585,33 @@ header > :nth-child(3) a:hover {
 
   .responsive-navbar {
     background-color: rgb(25, 26, 28);
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    position: fixed;
+    background-color: #426a68;
+    z-index: 2;
+    width: 90%;
+    height: 100%;
+    transition: 0.5s ease;
+    left: -3000px;
   }
   .show {
     background-color: rgba(25, 26, 28, 0.64);
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 100%;
     /* transition: 0.4s ease; */
     /* animation-name: navani;
         animation-duration: 1s; */
+    background-color: #426a68;
+    z-index: 2;
+    width: 80%;
+    height: 100%;
+    /* right: 0px; */
+    left: 0px;
   }
 
   /* @keyframes navani {
@@ -617,12 +633,25 @@ header > :nth-child(3) a:hover {
 
   .responsive-navbar ul li {
     width: 114px;
-    align-items: center;
+    padding: 10px;
   }
 
   .responsive-navbar ul li a {
     font-family: "Jost", sans-serif;
     font-size: 20px;
+  }
+
+  .res-icons{
+    display: flex;
+        justify-content: start;
+        margin-bottom: 74px;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        /* background-color: red; */
+  }
+  .res-icons a{
+    padding: 12px;
   }
 
   .hero > :nth-child(1) {
@@ -666,8 +695,9 @@ header > :nth-child(3) a:hover {
     /* background-color: aqua; */
   }
 
-  .hero-para{
+  .hero-para {
     text-align: center;
+    width: 72%;
   }
 
   .hero-1-1 {
@@ -797,7 +827,7 @@ header > :nth-child(3) a:hover {
     height: 551px;
   }
 
-  .container{
+  .container {
     height: 551px;
     /* overflow: hidden; */
   }
@@ -942,7 +972,7 @@ header > :nth-child(3) a:hover {
     height: 800px;
   }
 
-  .container{
+  .container {
     height: 800px;
     /* overflow: hidden; */
   }
@@ -953,7 +983,7 @@ header > :nth-child(3) a:hover {
 } */
 }
 
-@media screen and (max-width: 999px){
+@media screen and (max-width: 999px) {
   .card-list {
     width: 100%;
     background-color: transparent;
@@ -963,12 +993,12 @@ header > :nth-child(3) a:hover {
     justify-content: space-evenly;
     align-items: center;
   }
-  
+
   .slider-wrapper {
     height: 800px;
   }
 
-  .container{
+  .container {
     height: 800px;
     /* overflow: hidden; */
   }
