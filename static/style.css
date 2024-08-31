@@ -633,7 +633,10 @@ header > :nth-child(3) a:hover {
 
   .responsive-navbar ul li {
     width: 114px;
-    padding: 10px;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: start;
+    padding: 15px;
   }
 
   .responsive-navbar ul li a {
