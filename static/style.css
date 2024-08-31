@@ -647,8 +647,9 @@ header > :nth-child(3) a:hover {
         margin-bottom: 74px;
         align-items: center;
         width: 100%;
-        height: 100px;
+        /* height: 100px; */
         /* background-color: red; */
+        padding: 46px 9px;
   }
   .res-icons a{
     padding: 12px;
