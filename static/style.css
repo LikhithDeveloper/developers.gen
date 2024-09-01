@@ -153,10 +153,10 @@ nav div ul li a {
     width: 100%;
 } */
 
-header > :nth-child(3) a:hover {
+/* header > :nth-child(3) a:hover {
   color: #426a68;
   transition: 0.3s ease;
-}
+} */
 
 .responsive-navbar {
   /* background-color: red; */
@@ -642,6 +642,17 @@ header > :nth-child(3) a:hover {
   .responsive-navbar ul li a {
     font-family: "Jost", sans-serif;
     font-size: 20px;
+    position: relative;
+  }
+
+  .responsive-navbar ul li a::after{
+    content: "";
+    width: 100%;
+    background-color: white;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
   }
 
   .res-icons{
